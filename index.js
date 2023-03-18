@@ -3,20 +3,26 @@
 
         data: function(){
             return{
-                greeting: 'Hello js!!',
+                greeting: null,
+                greeting1: null,
                 isShow:true,
-                para:null
+                para:null,
+                answer:null
             }
         },
         methods:{
 
             clickOne(){
-
-                this.isShow=!this.isShow
+                this.answer=+this.greeting + +this.greeting1
+                
             },
             enter(){
                 this.para=this.greeting
-            }
+            },
+            input(){
+                this.answer=+this.greeting + +this.greeting1
+                
+            },
         }
     })
 

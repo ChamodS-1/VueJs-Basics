@@ -9,3 +9,8 @@
 
     display: none;
 }
+
+input,button{
+
+    display: block;
+}

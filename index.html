@@ -12,10 +12,11 @@
 <body>
   <div id="app" v-cloak>
     {{greeting}}
-    <input type="text"  v-model="greeting" @keyup.enter="enter">
+    <input type="number"  v-model="greeting" @keyup.enter="enter"  @input="input">
+    <input type="number"  v-model="greeting1" @keyup.enter="enter" @input="input">
+    <input type="text" v-model="answer">
     <button @click="clickOne">Click</button>
     <div class="box1" v-if="isShow"></div>
-    <p>{{para}}</p>
     
   </div>
     
