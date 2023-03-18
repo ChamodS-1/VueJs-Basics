@@ -1,0 +1,11 @@
+.box1{
+
+    width: 15rem;
+    height: 15rem;
+    background-color: aqua;
+}
+
+[v-cloak]{
+
+    display: none;
+}
